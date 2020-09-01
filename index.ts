@@ -9,7 +9,7 @@ const config: Linter.Config = {
   env: {
     es2020: true
   },
-  extends: ['./eslint', './html', './sonarjs', './unicorn', './typescript']
+  extends: ['./eslint', './html', './sonarjs', './unicorn']
 }
 
 export = config
