@@ -11,24 +11,28 @@
   "scripts": {
     "build": "tsc && copyfiles tsconfig.json lib"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn build"
+    }
+  },
   "devDependencies": {
     "@types/eslint": "^7.2.2",
     "@types/node": "^14.6.2",
     "copyfiles": "^2.3.0",
-    "eslint": "^7.8.0"
+    "eslint": "^7.8.0",
+    "husky": "^4.2.5"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
     "eslint": "^7.8.0",
     "eslint-formatter-pretty": "^4.0.0",
     "eslint-plugin-html": "^6.0.3",
     "eslint-plugin-markdown": "^2.0.0-alpha.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-sonarjs": "^0.5.0",
-    "eslint-plugin-unicorn": "^21.0.0"
-  },
-  "dependencies": {
-    "@typescript-eslint/parser": "^4.0.1",
+    "eslint-plugin-unicorn": "^21.0.0",
     "typescript": "^4.0.2"
   }
 }
