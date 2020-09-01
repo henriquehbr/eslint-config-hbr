@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   rules: {
     // Require braces in arrow function body
     // https://eslint.org/docs/rules/arrow-body-style
@@ -114,3 +115,5 @@ module.exports = {
     'yield-star-spacing': ['warn', 'after']
   }
 }
+
+export = config

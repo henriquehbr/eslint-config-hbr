@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   rules: {
     // Require or disallow initialization in variable declarations
     // https://eslint.org/docs/rules/init-declarations
@@ -30,3 +31,5 @@ module.exports = {
     'no-use-before-define': 'warn'
   }
 }
+
+export = config

@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   extends: [
     'eslint:recommended',
     './best-practices',
@@ -10,3 +11,5 @@ module.exports = {
     './variables'
   ]
 }
+
+export = config

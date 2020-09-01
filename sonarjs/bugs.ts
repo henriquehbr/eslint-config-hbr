@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   rules: {
     // Disallow having all branches in a switch or if chain with the same implementation
     // https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/no-all-duplicated-branches.md
@@ -30,3 +31,5 @@ module.exports = {
     'sonarjs/no-use-of-empty-return-value': 'warn'
   }
 }
+
+export = config

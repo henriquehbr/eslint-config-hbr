@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   plugins: ['unicorn'],
   rules: {
     // Improve regexes by making them shorter, consistent and safer
@@ -224,3 +225,5 @@ module.exports = {
     'unicorn/throw-new-error': 'warn'
   }
 }
+
+export = config

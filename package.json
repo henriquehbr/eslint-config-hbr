@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-toishi",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "author": "Henrique Borges <henriqueborgeshbr@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -9,25 +9,26 @@
     "eslintconfig"
   ],
   "scripts": {
-    "lint": "yarn eslint --format=pretty -c dist/index.js \"src/**/*.ts\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint",
-      "pre-push": "yarn lint"
-    }
+    "build": "tsc && copyfiles tsconfig.json lib"
   },
   "devDependencies": {
-    "@types/eslint": "^7.2.0",
-    "husky": "^4.2.5"
+    "@types/eslint": "^7.2.2",
+    "@types/node": "^14.6.2",
+    "copyfiles": "^2.3.0",
+    "eslint": "^7.8.0"
   },
   "peerDependencies": {
-    "eslint": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "eslint": "^7.8.0",
     "eslint-formatter-pretty": "^4.0.0",
-    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-html": "^6.0.3",
     "eslint-plugin-markdown": "^2.0.0-alpha.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-unicorn": "^21.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.0.1",
+    "typescript": "^4.0.2"
   }
 }

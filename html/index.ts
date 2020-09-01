@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   env: {
     browser: true
   },
@@ -30,3 +31,5 @@ module.exports = {
     'html/indent': ['warn', '+2']
   }
 }
+
+export = config

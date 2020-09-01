@@ -1,5 +1,6 @@
-/** @type {import('eslint').Linter.Config} */
-module.exports = {
+import type { Linter } from 'eslint'
+
+const config: Linter.Config = {
   rules: {
     // Enforce line breaks after opening and before closing array brackets
     // https://eslint.org/docs/rules/array-bracket-newline
@@ -373,3 +374,5 @@ module.exports = {
     'unicode-bom': 'warn'
   }
 }
+
+export = config
