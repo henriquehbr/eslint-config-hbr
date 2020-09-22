@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v0.2.0...HEAD)
 
-- chore: remove eslint-plugin-html [`2d4bcdc`](https://github.com/henriquehbr/eslint-config-hbr/commit/2d4bcdc7e0114ce238e2c4288212e4cdb9036726)
+- chore: remove eslint-plugin-html [`315b23d`](https://github.com/henriquehbr/eslint-config-hbr/commit/315b23df1250b11c81caef73e0989ae190b0161a)
 
 #### [v0.2.0](https://github.com/henriquehbr/eslint-config-hbr/compare/v0.1.0...v0.2.0)
 
