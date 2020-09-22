@@ -2,6 +2,10 @@ import type { Linter } from 'eslint'
 
 const config: Linter.Config = {
   rules: {
+    // Require explicit return and argument types on exported functions' and classes' public class methods
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+
     // Requires using either T[] or Array<T> for arrays
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/array-type.md
     '@typescript-eslint/array-type': 'warn',
@@ -72,7 +76,7 @@ const config: Linter.Config = {
 
     // Forbids the use of classes as namespaces
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-extraneous-class.md
-    '@typescript-eslint/no-extraneous-classes': 'warn',
+    '@typescript-eslint/no-extraneous-class': 'warn',
 
     // Disallow usage of the implicit `any` type in catch clauses
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-implicit-any-catch.md
@@ -88,7 +92,7 @@ const config: Linter.Config = {
 
     // Disallow throwing literals as exceptions
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
-    '@typescript-eslint/no-throw-literals': 'warn',
+    '@typescript-eslint/no-throw-literal': 'warn',
 
     // Disallow the use of type aliases
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-type-alias.md
@@ -130,7 +134,7 @@ const config: Linter.Config = {
 
     // Enforce the usage of the nullish coalescing operator instead of logical chaining
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md
-    '@typescript-eslint/prefer-nulish-coalescing': 'warn',
+    '@typescript-eslint/prefer-nullish-coalescing': 'warn',
 
     // Prefer using concise optional chain expressions instead of chained logical ands
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-optional-chain.md

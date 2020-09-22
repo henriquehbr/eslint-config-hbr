@@ -1,3 +1,4 @@
+import '@rushstack/eslint-patch/modern-module-resolution'
 import type { Linter } from 'eslint'
 import type { ParserOptions } from '@typescript-eslint/parser'
 
@@ -9,7 +10,7 @@ const config: Linter.Config = {
   env: {
     es2020: true
   },
-  extends: ['./eslint', './html', './sonarjs', './unicorn']
+  extends: ['./eslint', './sonarjs', './unicorn']
 }
 
 export = config
