@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   rules: {
     // Require or disallow strict mode directives
     // https://eslint.org/docs/rules/strict
@@ -8,4 +7,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config

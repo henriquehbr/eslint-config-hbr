@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v0.2.0...HEAD)
+#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-alpha.1...HEAD)
+
+- refactor: migrate from typescript to javascript [`9130d22`](https://github.com/henriquehbr/eslint-config-hbr/commit/9130d22ab11ecd513d6fc310bafce46783f07863)
+
+#### [v1.0.0-alpha.1](https://github.com/henriquehbr/eslint-config-hbr/compare/v0.2.0...v1.0.0-alpha.1)
+
+> 22 September 2020
 
 - chore: remove eslint-plugin-html [`315b23d`](https://github.com/henriquehbr/eslint-config-hbr/commit/315b23df1250b11c81caef73e0989ae190b0161a)
 

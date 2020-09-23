@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   rules: {
     // Require braces in arrow function body
     // https://eslint.org/docs/rules/arrow-body-style
@@ -116,4 +115,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config

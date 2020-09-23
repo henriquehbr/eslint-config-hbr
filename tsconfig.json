@@ -5,6 +5,7 @@
     "outDir": "lib",
     "noImplicitAny": true,
     "esModuleInterop": true,
+    "allowJs": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noUnusedLocals": true,

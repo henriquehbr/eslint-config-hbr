@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   rules: {
     // Disallow await inside of loops
     // https://eslint.org/docs/rules/no-await-in-loop
@@ -32,4 +31,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config

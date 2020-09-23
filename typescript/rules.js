@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   rules: {
     // Require explicit return and argument types on exported functions' and classes' public class methods
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md
@@ -178,4 +177,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config

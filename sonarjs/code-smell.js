@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   rules: {
     // Limit cognitive complexity
     // https://github.com/SonarSource/eslint-plugin-sonarjs/blob/master/docs/rules/cognitive-complexity.md
@@ -76,4 +75,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config

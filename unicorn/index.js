@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   plugins: ['unicorn'],
   rules: {
     // Improve regexes by making them shorter, consistent and safer
@@ -226,4 +225,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config

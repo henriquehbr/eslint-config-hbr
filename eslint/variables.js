@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   rules: {
     // Require or disallow initialization in variable declarations
     // https://eslint.org/docs/rules/init-declarations
@@ -32,4 +31,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config

@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   env: {
     node: true
   },
@@ -8,4 +7,4 @@ const config: Linter.Config = {
   extends: ['plugin:node/recommended-module']
 }
 
-export = config
+module.exports = config

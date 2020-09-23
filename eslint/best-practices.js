@@ -1,6 +1,5 @@
-import type { Linter } from 'eslint'
-
-const config: Linter.Config = {
+/** @type {import('eslint').Linter.Config} */
+const config = {
   rules: {
     // Enforces getter/setter pairs in objects and classes
     // https://eslint.org/docs/rules/accessor-pairs
@@ -277,4 +276,4 @@ const config: Linter.Config = {
   }
 }
 
-export = config
+module.exports = config
