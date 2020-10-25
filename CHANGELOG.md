@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.1...HEAD)
+
+- refactor: simplify changelog generation script [`c7ae963`](https://github.com/henriquehbr/eslint-config-hbr/commit/c7ae963e622b4ccf59b13bcfc7c846ab09dcd2f9)
+- fix: set "browser" as default env [`e40232d`](https://github.com/henriquehbr/eslint-config-hbr/commit/e40232d6dbc372ba66dd04ef9f10b17d5a7158d2)
+
 #### [v1.0.0-beta.1](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-alpha.1...v1.0.0-beta.1)
 
 > 23 September 2020
