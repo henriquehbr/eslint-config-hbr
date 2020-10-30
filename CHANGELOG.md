@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
+
+> 29 October 2020
+
+- chore: bump dependencies [`f63a458`](https://github.com/henriquehbr/eslint-config-hbr/commit/f63a458265cb97bf3a7be00a696d18ded7246802)
+- fix: recognize dynamic imports in typescript [`00da05e`](https://github.com/henriquehbr/eslint-config-hbr/commit/00da05eaab82bcb749b60ba857d53f6f5d7c69fc)
+
 #### [v1.0.0-beta.3](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.2...v1.0.0-beta.3)
 
 > 29 October 2020
