@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.2...HEAD)
+
+- fix: disable "node/no-unsupported-features/es-builtins" on typescript [`24aaf0e`](https://github.com/henriquehbr/eslint-config-hbr/commit/24aaf0e396abfc4fd45dd1a4ce225d35f782c80c)
+
 #### [v1.0.0-beta.2](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.1...v1.0.0-beta.2)
 
 > 24 October 2020
