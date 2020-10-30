@@ -10,7 +10,8 @@ const config = {
         resolvePaths: ['src'],
         tryExtensions: ['.js', '.json', '.node', '.ts']
       }
-    ]
+    ],
+    'node/no-unsupported-features/es-builtins': 'off'
   }
 }
 
