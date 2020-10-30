@@ -2,10 +2,6 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...HEAD)
-
-- chore: bump dependencies [`66fecc4`](https://github.com/henriquehbr/eslint-config-hbr/commit/66fecc4a1f020625da1ab029e0da023a2ae93e26)
-
 #### [v1.0.0-beta.3](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.2...v1.0.0-beta.3)
 
 > 29 October 2020

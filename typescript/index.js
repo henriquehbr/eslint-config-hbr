@@ -11,7 +11,12 @@ const config = {
         tryExtensions: ['.js', '.json', '.node', '.ts']
       }
     ],
-    'node/no-unsupported-features/es-builtins': 'off'
+    'node/no-unsupported-features/es-syntax': [
+      'warn',
+      {
+        ignores: ['dynamicImport']
+      }
+    ]
   }
 }
 
