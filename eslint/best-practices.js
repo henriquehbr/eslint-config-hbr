@@ -142,10 +142,6 @@ const config = {
     // https://eslint.org/docs/rules/no-loop-func
     'no-loop-func': 'warn',
 
-    // Disallow magic numbers
-    // https://eslint.org/docs/rules/no-magic-numbers
-    'no-magic-numbers': 'warn',
-
     // Disallow multiple spaces
     // https://eslint.org/docs/rules/no-multi-spaces
     'no-multi-spaces': 'warn',
