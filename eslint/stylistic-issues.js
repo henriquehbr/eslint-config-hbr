@@ -155,7 +155,7 @@ const config = {
 
     // Enforce or disallow newlines between operands of ternary expressions
     // https://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': 'warn',
+    'multiline-ternary': ['warn', 'always-multiline'],
 
     // Require constructor names to begin with a capital letter
     // https://eslint.org/docs/rules/new-cap

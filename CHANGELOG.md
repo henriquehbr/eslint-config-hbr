@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...HEAD)
+
+- chore: set consistent line breaks on ternary operators [`03a7579`](https://github.com/henriquehbr/eslint-config-hbr/commit/03a75799de0bfeb6a48a44ffc2865bb6c4d9f670)
+
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 
 > 29 October 2020
