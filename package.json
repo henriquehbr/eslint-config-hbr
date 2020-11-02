@@ -9,13 +9,18 @@
     "eslintconfig"
   ],
   "scripts": {
+    "bump:patch": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --patch",
+    "bump:minor": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --minor",
+    "bump:major": "cross-env HUSKY_SKIP_HOOKS=1 yarn version --major",
+    "version": "yarn changelog -p",
+    "postversion": "yes \"\" | yarn publish",
     "changelog": "auto-changelog -l false --hide-credit",
-    "postchangelog": "git add CHANGELOG.md && cross-env HUSKY_SKIP_HOOKS=1 git commit --amend --no-edit --no-verify",
-    "publish": "yarn changelog"
+    "postchangelog": "git add CHANGELOG.md",
+    "amend-changelog": "cross-env HUSKY_SKIP_HOOKS=1 git commit --amend --no-edit --no-verify"
   },
   "husky": {
     "hooks": {
-      "post-commit": "yarn changelog -u"
+      "post-commit": "yarn changelog -u && yarn amend-changelog"
     }
   },
   "devDependencies": {
