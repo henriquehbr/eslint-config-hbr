@@ -4,9 +4,10 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...HEAD)
 
+- chore: move es2020 options to typescript config [`27499cc`](https://github.com/henriquehbr/eslint-config-hbr/commit/27499cc984f2e367574b1399868935d0b470f6ff)
+- chore: remove rule "no-magic-numbers" [`67c5676`](https://github.com/henriquehbr/eslint-config-hbr/commit/67c56768bb147172af581d8a939074a120baf5b3)
 - chore: set consistent line breaks on ternary operators [`ad44c99`](https://github.com/henriquehbr/eslint-config-hbr/commit/ad44c999a331d99cdeb0c1ac32846a1c94faa5a5)
 - chore: disallow variables declared together [`e064128`](https://github.com/henriquehbr/eslint-config-hbr/commit/e0641289ab20b9d96c49aac3de3de68b19d37faf)
-- chore: remove rule "no-magic-numbers" [`b1c585e`](https://github.com/henriquehbr/eslint-config-hbr/commit/b1c585ebd0b98387e24793ec7462853df133e8ce)
 
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 

@@ -9,9 +9,6 @@ const parserOptions = {
 /** @type {import('eslint').Linter.Config} */
 const config = {
   parserOptions,
-  env: {
-    es2020: true
-  },
   extends: ['./eslint', './sonarjs', './unicorn']
 }
 

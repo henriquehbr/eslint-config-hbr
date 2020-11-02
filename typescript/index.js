@@ -3,6 +3,12 @@ const config = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   extends: ['plugin:@typescript-eslint/recommended', './rules'],
+  parserOptions: {
+    ecmaVersion: 2020
+  },
+  env: {
+    es2020: true
+  },
   rules: {
     'node/no-missing-import': [
       'warn',
