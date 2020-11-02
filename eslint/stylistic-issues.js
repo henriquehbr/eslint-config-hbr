@@ -251,7 +251,7 @@ const config = {
 
     // Enforce variables to be declared either together or separately
     // https://eslint.org/docs/rules/one-var
-    'one-var': 'warn',
+    'one-var': ['warn', 'never'],
 
     // Require or disallow newlines around variable declarations
     // https://eslint.org/docs/rules/one-var-declaration-per-line
