@@ -4,11 +4,12 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...HEAD)
 
+- refactor: rewrite changelog generation scripts [`f52c251`](https://github.com/henriquehbr/eslint-config-hbr/commit/f52c251f572b82ebf3d5ce947ef14e1adbed18a9)
 - chore: move es2020 options to typescript config [`ee2b629`](https://github.com/henriquehbr/eslint-config-hbr/commit/ee2b629795429b2b13eece1b01621e9706df643c)
-- refactor: rewrite changelog generation scripts [`1e8727b`](https://github.com/henriquehbr/eslint-config-hbr/commit/1e8727b8b5c911f748ab1ab1c03f6eb9038daf44)
 - chore: remove rule "no-magic-numbers" [`67c5676`](https://github.com/henriquehbr/eslint-config-hbr/commit/67c56768bb147172af581d8a939074a120baf5b3)
 - chore: set consistent line breaks on ternary operators [`ad44c99`](https://github.com/henriquehbr/eslint-config-hbr/commit/ad44c999a331d99cdeb0c1ac32846a1c94faa5a5)
 - chore: disallow variables declared together [`e064128`](https://github.com/henriquehbr/eslint-config-hbr/commit/e0641289ab20b9d96c49aac3de3de68b19d37faf)
+- chore(typescript): remove rule that disallows type aliases [`368851f`](https://github.com/henriquehbr/eslint-config-hbr/commit/368851f19800d47a67720d30452e9fcaeb074e91)
 
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 

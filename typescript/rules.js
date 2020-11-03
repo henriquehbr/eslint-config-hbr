@@ -93,10 +93,6 @@ const config = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-throw-literal.md
     '@typescript-eslint/no-throw-literal': 'warn',
 
-    // Disallow the use of type aliases
-    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-type-alias.md
-    '@typescript-eslint/no-type-alias': 'warn',
-
     // Flags unnecessary equality comparisons against boolean literals
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-boolean-literal-compare.md
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': [
