@@ -2,7 +2,12 @@
 const config = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/typescript', './rules'],
+  extends: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:import/typescript',
+    './rules',
+    './settings'
+  ],
   parserOptions: {
     ecmaVersion: 2020
   },

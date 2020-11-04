@@ -3,7 +3,7 @@ const config = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.mjs', '.json'],
+        extensions: ['.js', '.ts', '.mjs', '.json'],
         moduleDirectory: ['node_modules', 'src']
       }
     }
