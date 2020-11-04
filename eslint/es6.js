@@ -21,15 +21,6 @@ const config = {
     // https://eslint.org/docs/rules/no-confusing-arrow
     'no-confusing-arrow': 'warn',
 
-    // Disallow duplicate imports
-    // https://eslint.org/docs/rules/no-duplicate-imports
-    'no-duplicate-imports': [
-      'warn',
-      {
-        includeExports: true
-      }
-    ],
-
     // Disallow unnecessary computed property keys in objects and classes
     // https://eslint.org/docs/rules/no-useless-computed-key
     'no-useless-computed-key': [
