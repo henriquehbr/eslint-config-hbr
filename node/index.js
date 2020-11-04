@@ -4,7 +4,7 @@ const config = {
     node: true
   },
   plugins: ['node'],
-  extends: ['plugin:node/recommended-module', './settings']
+  extends: ['plugin:node/recommended', './settings']
 }
 
 module.exports = config

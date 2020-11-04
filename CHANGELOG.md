@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file. Dates are d
 #### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...HEAD)
 
 - feat: add eslint-plugin-import [`617bd2e`](https://github.com/henriquehbr/eslint-config-hbr/commit/617bd2eaaffcc81e9da15444306f2141fe981c1c)
-- refactor(import): split rules into categories [`996e440`](https://github.com/henriquehbr/eslint-config-hbr/commit/996e4403ad3f6de43ad8c6116060d4c2bf323d87)
+- refactor(import): split rules into categories [`9e9ad97`](https://github.com/henriquehbr/eslint-config-hbr/commit/9e9ad978ff9f65bf365e6e079ccb3ae46cd3c5b6)
 - chore: set "src" as a module directory [`6b3edf7`](https://github.com/henriquehbr/eslint-config-hbr/commit/6b3edf78dc5bcc23977c7d7c9639842309db7e1e)
 - chore(node): create separated settings file [`78e805d`](https://github.com/henriquehbr/eslint-config-hbr/commit/78e805d9b4ac902d47c0e0751c70d49f07f514aa)
 - refactor: rewrite changelog generation scripts [`f52c251`](https://github.com/henriquehbr/eslint-config-hbr/commit/f52c251f572b82ebf3d5ce947ef14e1adbed18a9)
@@ -20,6 +20,7 @@ All notable changes to this project will be documented in this file. Dates are d
 - chore: set consistent line breaks on ternary operators [`ad44c99`](https://github.com/henriquehbr/eslint-config-hbr/commit/ad44c999a331d99cdeb0c1ac32846a1c94faa5a5)
 - fix: avoid requiring readonly on dependency types [`71c7b8b`](https://github.com/henriquehbr/eslint-config-hbr/commit/71c7b8b8d05e57b4d7e2fa9b5048d28531c32f26)
 - chore: disallow variables declared together [`e064128`](https://github.com/henriquehbr/eslint-config-hbr/commit/e0641289ab20b9d96c49aac3de3de68b19d37faf)
+- chore(import): add support for commonjs modules [`9769b12`](https://github.com/henriquehbr/eslint-config-hbr/commit/9769b1274edd9124f0a9475bee3773ec84658347)
 
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 
