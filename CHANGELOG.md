@@ -5,8 +5,9 @@ All notable changes to this project will be documented in this file. Dates are d
 #### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...HEAD)
 
 - feat: add eslint-plugin-import [`617bd2e`](https://github.com/henriquehbr/eslint-config-hbr/commit/617bd2eaaffcc81e9da15444306f2141fe981c1c)
+- refactor(import): split rules into categories [`996e440`](https://github.com/henriquehbr/eslint-config-hbr/commit/996e4403ad3f6de43ad8c6116060d4c2bf323d87)
 - chore: set "src" as a module directory [`6b3edf7`](https://github.com/henriquehbr/eslint-config-hbr/commit/6b3edf78dc5bcc23977c7d7c9639842309db7e1e)
-- chore(node): create separated settings file [`105471d`](https://github.com/henriquehbr/eslint-config-hbr/commit/105471d4de71787f5f49eb92f727df457196fe2e)
+- chore(node): create separated settings file [`78e805d`](https://github.com/henriquehbr/eslint-config-hbr/commit/78e805d9b4ac902d47c0e0751c70d49f07f514aa)
 - refactor: rewrite changelog generation scripts [`f52c251`](https://github.com/henriquehbr/eslint-config-hbr/commit/f52c251f572b82ebf3d5ce947ef14e1adbed18a9)
 - chore: prevent reporting type imports as duplicates [`9bbbaf6`](https://github.com/henriquehbr/eslint-config-hbr/commit/9bbbaf6d33c885a5d881ed799a16afcab1c34779)
 - chore: move es2020 options to typescript config [`ee2b629`](https://github.com/henriquehbr/eslint-config-hbr/commit/ee2b629795429b2b13eece1b01621e9706df643c)
