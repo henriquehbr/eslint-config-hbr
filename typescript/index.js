@@ -22,12 +22,7 @@ const config = {
         tryExtensions: ['.js', '.json', '.node', '.ts']
       }
     ],
-    'node/no-unsupported-features/es-syntax': [
-      'warn',
-      {
-        ignores: ['dynamicImport']
-      }
-    ],
+    'node/no-unsupported-features/es-syntax': 'off',
     'no-use-before-define': 'off'
   }
 }
