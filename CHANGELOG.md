@@ -9,11 +9,12 @@ All notable changes to this project will be documented in this file. Dates are d
 - chore: prevent reporting type imports as duplicates [`9bbbaf6`](https://github.com/henriquehbr/eslint-config-hbr/commit/9bbbaf6d33c885a5d881ed799a16afcab1c34779)
 - chore: move es2020 options to typescript config [`ee2b629`](https://github.com/henriquehbr/eslint-config-hbr/commit/ee2b629795429b2b13eece1b01621e9706df643c)
 - fix(import): add typescript support [`15f0741`](https://github.com/henriquehbr/eslint-config-hbr/commit/15f074197aa056b67df5598043053c819d0692e4)
-- chore: allow types, interfaces and enums before definition [`c467a13`](https://github.com/henriquehbr/eslint-config-hbr/commit/c467a13d669f22fc1c6aed1a1c50e04d59379be9)
+- chore: allow types, interfaces and enums before definition [`a2fdbcb`](https://github.com/henriquehbr/eslint-config-hbr/commit/a2fdbcb671b0fba058eb9d966dfb1f10dc003856)
 - chore(typescript): remove rule that disallows type aliases [`42199b4`](https://github.com/henriquehbr/eslint-config-hbr/commit/42199b429fd4d8cb814953d91488018883162301)
 - chore: remove rule "no-magic-numbers" [`67c5676`](https://github.com/henriquehbr/eslint-config-hbr/commit/67c56768bb147172af581d8a939074a120baf5b3)
 - chore: set consistent line breaks on ternary operators [`ad44c99`](https://github.com/henriquehbr/eslint-config-hbr/commit/ad44c999a331d99cdeb0c1ac32846a1c94faa5a5)
 - chore: disallow variables declared together [`e064128`](https://github.com/henriquehbr/eslint-config-hbr/commit/e0641289ab20b9d96c49aac3de3de68b19d37faf)
+- fix: avoid requiring readonly on dependency types [`90abb27`](https://github.com/henriquehbr/eslint-config-hbr/commit/90abb27747bf06424d5f2b8811d00d9a0200a9f3)
 
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 

@@ -145,7 +145,7 @@ const config = {
 
     // Requires that function parameters are typed as readonly to prevent accidental mutation of inputs
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-readonly-parameter-types.md
-    '@typescript-eslint/prefer-readonly-parameter-types': 'warn',
+    '@typescript-eslint/prefer-readonly-parameter-types': ['warn', { ignoreInferredTypes: true }],
 
     // Enforce the use of `String.startsWith` and `String.endsWith` instead of other equivalent methods of checking substrings
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-string-starts-ends-with.md
