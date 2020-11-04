@@ -115,6 +115,10 @@ const config = {
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unnecessary-type-arguments.md
     '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
 
+    // Disallow the use of variables before they are defined
+    // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-use-before-define.md
+    '@typescript-eslint/no-use-before-define': 'warn',
+
     // Prefer initializing each enums member value
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-enum-initializers.md
     '@typescript-eslint/prefer-enum-initializers': 'warn',

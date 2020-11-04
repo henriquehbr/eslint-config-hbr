@@ -22,7 +22,8 @@ const config = {
       {
         ignores: ['dynamicImport']
       }
-    ]
+    ],
+    'no-use-before-define': 'off'
   }
 }
 
