@@ -6,8 +6,9 @@ All notable changes to this project will be documented in this file. Dates are d
 
 - feat: add eslint-plugin-import [`617bd2e`](https://github.com/henriquehbr/eslint-config-hbr/commit/617bd2eaaffcc81e9da15444306f2141fe981c1c)
 - refactor: rewrite changelog generation scripts [`f52c251`](https://github.com/henriquehbr/eslint-config-hbr/commit/f52c251f572b82ebf3d5ce947ef14e1adbed18a9)
+- chore: prevent reporting type imports as duplicates [`9bbbaf6`](https://github.com/henriquehbr/eslint-config-hbr/commit/9bbbaf6d33c885a5d881ed799a16afcab1c34779)
 - chore: move es2020 options to typescript config [`ee2b629`](https://github.com/henriquehbr/eslint-config-hbr/commit/ee2b629795429b2b13eece1b01621e9706df643c)
-- chore: prevent reporting type imports as duplicates [`3787e9e`](https://github.com/henriquehbr/eslint-config-hbr/commit/3787e9e34fd15cb69271a9078a1e40ce0ddd8ad6)
+- fix(import): add typescript support [`f53e69c`](https://github.com/henriquehbr/eslint-config-hbr/commit/f53e69c1d036b1abf8c8eed7d2b8a525d6ec774c)
 - chore(typescript): remove rule that disallows type aliases [`42199b4`](https://github.com/henriquehbr/eslint-config-hbr/commit/42199b429fd4d8cb814953d91488018883162301)
 - chore: remove rule "no-magic-numbers" [`67c5676`](https://github.com/henriquehbr/eslint-config-hbr/commit/67c56768bb147172af581d8a939074a120baf5b3)
 - chore: set consistent line breaks on ternary operators [`ad44c99`](https://github.com/henriquehbr/eslint-config-hbr/commit/ad44c999a331d99cdeb0c1ac32846a1c94faa5a5)
