@@ -13,8 +13,9 @@ All notable changes to this project will be documented in this file. Dates are d
 - chore(typescript): remove rule that disallows type aliases [`42199b4`](https://github.com/henriquehbr/eslint-config-hbr/commit/42199b429fd4d8cb814953d91488018883162301)
 - chore: remove rule "no-magic-numbers" [`67c5676`](https://github.com/henriquehbr/eslint-config-hbr/commit/67c56768bb147172af581d8a939074a120baf5b3)
 - chore: set consistent line breaks on ternary operators [`ad44c99`](https://github.com/henriquehbr/eslint-config-hbr/commit/ad44c999a331d99cdeb0c1ac32846a1c94faa5a5)
+- fix: avoid requiring readonly on dependency types [`71c7b8b`](https://github.com/henriquehbr/eslint-config-hbr/commit/71c7b8b8d05e57b4d7e2fa9b5048d28531c32f26)
 - chore: disallow variables declared together [`e064128`](https://github.com/henriquehbr/eslint-config-hbr/commit/e0641289ab20b9d96c49aac3de3de68b19d37faf)
-- fix: avoid requiring readonly on dependency types [`90abb27`](https://github.com/henriquehbr/eslint-config-hbr/commit/90abb27747bf06424d5f2b8811d00d9a0200a9f3)
+- chore: allow declaring unassigned variables [`7d99797`](https://github.com/henriquehbr/eslint-config-hbr/commit/7d99797ef5196426fa92ef6ec081fba9a2feb879)
 
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 

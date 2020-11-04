@@ -1,10 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 const config = {
   rules: {
-    // Require or disallow initialization in variable declarations
-    // https://eslint.org/docs/rules/init-declarations
-    'init-declarations': 'warn',
-
     // Disallow labels that are variable names
     // https://eslint.org/docs/rules/no-label-var
     'no-label-var': 'warn',
