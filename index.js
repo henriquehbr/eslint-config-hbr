@@ -9,7 +9,7 @@ const parserOptions = {
 /** @type {import('eslint').Linter.Config} */
 const config = {
   parserOptions,
-  extends: ['./eslint', './sonarjs', './unicorn']
+  extends: ['./eslint', './sonarjs', './unicorn', './import']
 }
 
 module.exports = config
