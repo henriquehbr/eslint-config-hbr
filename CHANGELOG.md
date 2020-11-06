@@ -6,10 +6,11 @@ All notable changes to this project will be documented in this file. Dates are d
 
 - feat: add eslint-plugin-import [`617bd2e`](https://github.com/henriquehbr/eslint-config-hbr/commit/617bd2eaaffcc81e9da15444306f2141fe981c1c)
 - refactor(import): split rules into categories [`9e9ad97`](https://github.com/henriquehbr/eslint-config-hbr/commit/9e9ad978ff9f65bf365e6e079ccb3ae46cd3c5b6)
+- refactor(typescript): move overriden rules to separated file [`0a978ee`](https://github.com/henriquehbr/eslint-config-hbr/commit/0a978ee1e6873f7998c1b6c8785b9abd6e4b8727)
 - chore: set "src" as a module directory [`6b3edf7`](https://github.com/henriquehbr/eslint-config-hbr/commit/6b3edf78dc5bcc23977c7d7c9639842309db7e1e)
 - chore(node): create separated settings file [`78e805d`](https://github.com/henriquehbr/eslint-config-hbr/commit/78e805d9b4ac902d47c0e0751c70d49f07f514aa)
+- chore(import): allow node builtins on node ruleset [`1e9380f`](https://github.com/henriquehbr/eslint-config-hbr/commit/1e9380f819efbdb3185f1e08f68fd9d903f79c1e)
 - refactor: rewrite changelog generation scripts [`f52c251`](https://github.com/henriquehbr/eslint-config-hbr/commit/f52c251f572b82ebf3d5ce947ef14e1adbed18a9)
-- chore(import): allow node builtins on node ruleset [`8b21e9a`](https://github.com/henriquehbr/eslint-config-hbr/commit/8b21e9af6a1744d9a5ea4837c599183adb9f8841)
 - chore: prevent reporting type imports as duplicates [`9bbbaf6`](https://github.com/henriquehbr/eslint-config-hbr/commit/9bbbaf6d33c885a5d881ed799a16afcab1c34779)
 - chore: move es2020 options to typescript config [`ee2b629`](https://github.com/henriquehbr/eslint-config-hbr/commit/ee2b629795429b2b13eece1b01621e9706df643c)
 - fix(import): add typescript support [`15f0741`](https://github.com/henriquehbr/eslint-config-hbr/commit/15f074197aa056b67df5598043053c819d0692e4)
