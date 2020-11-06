@@ -27,7 +27,7 @@ const config = {
 
     // Reports individual exports not being statically imported or required from other modules in the same project
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
-    'import/no-unused-modules': ['warn', { unusedExports: true }]
+    'import/no-unused-modules': ['warn', { missingExports: true }]
   }
 }
 
