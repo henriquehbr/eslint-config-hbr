@@ -288,7 +288,7 @@ const config = {
 
     // Require quotes around object literal property names
     // https://eslint.org/docs/rules/quote-props
-    'quote-props': 'warn',
+    'quote-props': ['warn', 'as-needed'],
 
     // Enforce the consistent use of either backticks, double or single quotes
     // https://eslint.org/docs/rules/quotes
