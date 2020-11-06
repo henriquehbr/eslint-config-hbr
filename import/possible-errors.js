@@ -23,11 +23,7 @@ const config = {
 
     // Forbids the use of mutable exports with `var` or `let`
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
-    'import/no-mutable-exports': 'warn',
-
-    // Reports individual exports not being statically imported or required from other modules in the same project
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unused-modules.md
-    'import/no-unused-modules': ['warn', { missingExports: true }]
+    'import/no-mutable-exports': 'warn'
   }
 }
 
