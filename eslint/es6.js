@@ -88,10 +88,6 @@ const config = {
     // https://eslint.org/docs/rules/rest-spread-spacing
     'rest-spread-spacing': 'warn',
 
-    // Import sorting
-    // https://eslint.org/docs/rules/sort-imports
-    'sort-imports': 'warn',
-
     // Require symbol description
     // https://eslint.org/docs/rules/symbol-description
     'symbol-description': 'warn',
