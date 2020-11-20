@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file. Dates are d
 
 - feat: add eslint-plugin-import [`617bd2e`](https://github.com/henriquehbr/eslint-config-hbr/commit/617bd2eaaffcc81e9da15444306f2141fe981c1c)
 - refactor(import): split rules into categories [`9e9ad97`](https://github.com/henriquehbr/eslint-config-hbr/commit/9e9ad978ff9f65bf365e6e079ccb3ae46cd3c5b6)
-- chore: bump dependencies [`e93ab39`](https://github.com/henriquehbr/eslint-config-hbr/commit/e93ab393853002f5116541cefa4135f4f2a38632)
+- chore: bump dependencies [`d45707f`](https://github.com/henriquehbr/eslint-config-hbr/commit/d45707fed21a592e19cc7ee305f8d1826319acae)
 - refactor(typescript): move overriden rules to separated file [`4e162b6`](https://github.com/henriquehbr/eslint-config-hbr/commit/4e162b66e6d30008c94f88bef056f38fc963a6e6)
 - chore: set "src" as a module directory [`6b3edf7`](https://github.com/henriquehbr/eslint-config-hbr/commit/6b3edf78dc5bcc23977c7d7c9639842309db7e1e)
 - chore(node): create separated settings file [`78e805d`](https://github.com/henriquehbr/eslint-config-hbr/commit/78e805d9b4ac902d47c0e0751c70d49f07f514aa)
@@ -29,6 +29,7 @@ All notable changes to this project will be documented in this file. Dates are d
 - chore(import): add support for commonjs modules [`db021bb`](https://github.com/henriquehbr/eslint-config-hbr/commit/db021bb29b2df13969daa15f841fd75b6773aa90)
 - fix: avoid requiring readonly on dependency types [`71c7b8b`](https://github.com/henriquehbr/eslint-config-hbr/commit/71c7b8b8d05e57b4d7e2fa9b5048d28531c32f26)
 - chore: disallow variables declared together [`e064128`](https://github.com/henriquehbr/eslint-config-hbr/commit/e0641289ab20b9d96c49aac3de3de68b19d37faf)
+- chore: automate pushing of git tags to remote [`4fa2e0f`](https://github.com/henriquehbr/eslint-config-hbr/commit/4fa2e0fe94c4e2942fe027d8bfe3ac1e7c522492)
 
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 
