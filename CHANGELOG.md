@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...HEAD)
+#### [v1.0.0](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...v1.0.0)
 
 - feat: add eslint-plugin-import [`617bd2e`](https://github.com/henriquehbr/eslint-config-hbr/commit/617bd2eaaffcc81e9da15444306f2141fe981c1c)
 - refactor(import): split rules into categories [`9e9ad97`](https://github.com/henriquehbr/eslint-config-hbr/commit/9e9ad978ff9f65bf365e6e079ccb3ae46cd3c5b6)
@@ -23,13 +23,13 @@ All notable changes to this project will be documented in this file. Dates are d
 - chore: allow declaring unassigned variables [`8bff614`](https://github.com/henriquehbr/eslint-config-hbr/commit/8bff614fbd39adefe6fa2307831e448e0ca73506)
 - chore(typescript): remove rule that disallows type aliases [`42199b4`](https://github.com/henriquehbr/eslint-config-hbr/commit/42199b429fd4d8cb814953d91488018883162301)
 - chore: remove rule "no-magic-numbers" [`67c5676`](https://github.com/henriquehbr/eslint-config-hbr/commit/67c56768bb147172af581d8a939074a120baf5b3)
+- chore: automate pushing of git tags to remote [`48fb600`](https://github.com/henriquehbr/eslint-config-hbr/commit/48fb60074045afebdd964ca242b98eb0e5155302)
 - chore: set consistent line breaks on ternary operators [`ad44c99`](https://github.com/henriquehbr/eslint-config-hbr/commit/ad44c999a331d99cdeb0c1ac32846a1c94faa5a5)
 - chore: set object properties quotes as optional [`723c5f2`](https://github.com/henriquehbr/eslint-config-hbr/commit/723c5f226df0a4bc0e5d4813d4ce12f5b6a13a8b)
 - fix(import): remove option unusedExports from no-unused-modules [`c82db19`](https://github.com/henriquehbr/eslint-config-hbr/commit/c82db1911177c14af49bf1031984b85ca39a844b)
 - chore(import): add support for commonjs modules [`db021bb`](https://github.com/henriquehbr/eslint-config-hbr/commit/db021bb29b2df13969daa15f841fd75b6773aa90)
 - fix: avoid requiring readonly on dependency types [`71c7b8b`](https://github.com/henriquehbr/eslint-config-hbr/commit/71c7b8b8d05e57b4d7e2fa9b5048d28531c32f26)
 - chore: disallow variables declared together [`e064128`](https://github.com/henriquehbr/eslint-config-hbr/commit/e0641289ab20b9d96c49aac3de3de68b19d37faf)
-- chore: automate pushing of git tags to remote [`4fa2e0f`](https://github.com/henriquehbr/eslint-config-hbr/commit/4fa2e0fe94c4e2942fe027d8bfe3ac1e7c522492)
 
 #### [v1.0.0-beta.4](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.3...v1.0.0-beta.4)
 
