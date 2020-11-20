@@ -332,7 +332,14 @@ const config = {
 
     // Require or disallow a space before function parentheses
     // https://eslint.org/docs/rules/space-before-function-paren
-    'space-before-function-paren': ['warn', 'never'],
+    'space-before-function-paren': [
+      'warn',
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always'
+      }
+    ],
 
     // Disallow or enforce spaces inside of parentheses
     // https://eslint.org/docs/rules/space-in-parens
