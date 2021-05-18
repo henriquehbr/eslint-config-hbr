@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0...HEAD)
+
+- chore: explicitly set `ecmaVersion` to 11 [`9d8320f`](https://github.com/henriquehbr/eslint-config-hbr/commit/9d8320f5ad770a8e519ade3cf1acfcf4eedb6732)
+
 #### [v1.0.0](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...v1.0.0)
+
+> 20 November 2020
 
 - feat: add eslint-plugin-import [`617bd2e`](https://github.com/henriquehbr/eslint-config-hbr/commit/617bd2eaaffcc81e9da15444306f2141fe981c1c)
 - refactor(import): split rules into categories [`9e9ad97`](https://github.com/henriquehbr/eslint-config-hbr/commit/9e9ad978ff9f65bf365e6e079ccb3ae46cd3c5b6)
