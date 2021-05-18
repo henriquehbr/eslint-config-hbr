@@ -229,10 +229,6 @@ const config = {
     // https://eslint.org/docs/rules/no-void
     'no-void': 'warn',
 
-    // Suggest using named capture group in regular expressions
-    // https://eslint.org/docs/rules/prefer-named-capture-group
-    'prefer-named-capture-group': 'warn',
-
     // Require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
     'prefer-promise-reject-errors': 'warn',
