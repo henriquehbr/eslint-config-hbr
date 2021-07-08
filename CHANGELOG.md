@@ -4,8 +4,9 @@ All notable changes to this project will be documented in this file. Dates are d
 
 #### [Unreleased](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0...HEAD)
 
+- chore: move package.json `dependencies` to `peerDependencies` [`20ca14e`](https://github.com/henriquehbr/eslint-config-hbr/commit/20ca14e15b40cbe2745d269b950fdd3398eeb21b)
 - chore: explicitly set `ecmaVersion` to 11 [`5e8b9f4`](https://github.com/henriquehbr/eslint-config-hbr/commit/5e8b9f4e68ef3e6f97d28f36ab7a45614e3fc1f2)
-- chore: remove `prefer-named-capture-group` rule [`49b22d9`](https://github.com/henriquehbr/eslint-config-hbr/commit/49b22d910940ce622d77b5b4098d79b50e7eb45e)
+- chore: remove `prefer-named-capture-group` rule [`a448675`](https://github.com/henriquehbr/eslint-config-hbr/commit/a448675e1d60e039807502269b9c1369c42c88bb)
 
 #### [v1.0.0](https://github.com/henriquehbr/eslint-config-hbr/compare/v1.0.0-beta.4...v1.0.0)
 
